@@ -10,12 +10,7 @@ describe('Testing service: New Survivor', function() {
     Sinon.restore();
   })
 
-  it('Case 1: Must create new survivor', async function () {
-    const inputMock: ICharacter = {
-      name: 'Dwight Fairfield',
-      imageUrl: 'sample:/url',
-      lore: 'Random generyc lore',
-    }
+  it('Case 1: Must find an survivor', async function () {
     const outputMock: Survivor = new Survivor({
       id: 1,
       name: 'Dwight Fairfield',
@@ -26,9 +21,28 @@ describe('Testing service: New Survivor', function() {
 
     // WHEN
 
-    Sinon.stub(Model, 'create').resolves(outputMock);
+    Sinon.stub(Model, 'findOne').resolves(outputMock);
     const service = new SurvivorService();
-    const result = await service.create(inputMock);
+    const result = await service.findById(1);
+
+    // THEN
+    expect(result).to.be.equal(outputMock);
+  });
+
+  it('Case 2: Must get an error whit invalid id', async function () {
+    const outputMock: Survivor = new Survivor({
+      id: 1,
+      name: 'Dwight Fairfield',
+      imageUrl: 'sample:/url',
+      lore: 'Random generyc lore',
+      dlc: undefined,
+    })
+
+    // WHEN
+
+    Sinon.stub(Model, 'findOne').resolves(outputMock);
+    const service = new SurvivorService();
+    const result = await service.findById(2);
 
     // THEN
     expect(result).to.be.equal(outputMock);
