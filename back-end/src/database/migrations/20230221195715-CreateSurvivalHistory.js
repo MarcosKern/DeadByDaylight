@@ -3,21 +3,12 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.createTable('Survivor_perks', {
+    await queryInterface.createTable('Survivor_history', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
-      },
-      name: {
-        allowNull: false,
-        type: Sequelize.STRING,
-      },
-      imageUrl: {
-        allowNull: false,
-        type: Sequelize.STRING,
-        field: 'image_url',
       },
       survivorId: {
         allowNull: false,
@@ -27,13 +18,17 @@ module.exports = {
           key: 'id',
         },
         field: 'survivor_id',
+      },
+      history: {
+        allowNull: false,
+        type: Sequelize.STRING(2000),
       }
     }, {
       timestamps: false
-    });
+    })
   },
 
-  async down (queryInterface, _Sequelize) {
-    await queryInterface.dropTable('survivor_perks');
+  async down (queryInterface, Sequelize) {
+    await queryInterface.dropTable('Survivor_history')
   }
 };

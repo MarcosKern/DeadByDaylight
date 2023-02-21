@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.createTable('survivors', {
+    await queryInterface.createTable('Survivors', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -21,12 +21,14 @@ module.exports = {
       },
       lore: {
         allowNull: false,
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(1000),
       },
-      licenced: {
+      dlc: {
         allowNull: true,
-        type: Sequelize.BOOLEAN,
+        type: Sequelize.STRING,
       }
+    }, {
+      timestamps: false,
     })
   },
 
