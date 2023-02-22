@@ -1,3 +1,5 @@
+import IHistory from "./IHistory";
+
 export type DLC = string | null;
 
 export default interface ICharacter {
@@ -6,4 +8,5 @@ export default interface ICharacter {
   imageUrl: string;
   lore: string;
   dlc?: DLC;
+  survivor?: IHistory;
 }

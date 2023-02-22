@@ -36,7 +36,7 @@ Killer.init({
   sequelize: db,
   underscored: true,
   timestamps: false,
-  modelName: 'Killers'
+  modelName: 'killers'
 });
 
 export default Killer;

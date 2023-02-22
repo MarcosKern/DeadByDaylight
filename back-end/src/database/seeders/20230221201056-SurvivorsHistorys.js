@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, _Sequelize) {
-    await queryInterface.bulkInsert('Survivor_history', [
+    await queryInterface.bulkInsert('survivor_history', [
       {
         survivor_id: 1,
         history: 'Dwight was geeky and scrawny through high school. He always wanted to be one of the cool kids, but somehow never had the charisma. He tried out for the football team but was cut, the basketball team didn\'t even take a look, and his grades were distinctly below average. One weekend, on a team-building exercise from his dead-end job, Dwight\'s boss led them deep into the woods before breaking out his family recipe moonshine. Dwight remembered taking the first sip before waking up late the next morning all alone. During the night, the others had abandoned him. Once again, the laughing stock of the community Dwight tried to hike his way out of the woods. That was the last anyone ever heard of Dwight Fairfield.',
@@ -24,6 +24,6 @@ module.exports = {
   },
 
   async down (queryInterface, _Sequelize) {
-    await queryInterface.bulkDelete('Survivor_history', null, {})
+    await queryInterface.bulkDelete('survivor_history', null, {})
   }
 };

@@ -1,5 +1,7 @@
-import { Model, INTEGER, STRING } from "sequelize";
+import { Model, INTEGER, STRING,  } from "sequelize";
 import db from '.';
+import IHistory from "../../api/interfaces/IHistory";
+import SurvivorHistory from "./SurvivorHistory";
 
 class Survivor extends Model {
   declare readonly id: number;
@@ -7,6 +9,7 @@ class Survivor extends Model {
   declare imageUrl: string;
   declare lore: string;
   declare dlc?: string;
+  declare history?: IHistory;
 }
 
 Survivor.init({
@@ -36,7 +39,7 @@ Survivor.init({
   sequelize: db,
   underscored: true,
   timestamps: false,
-  modelName: 'Survivors'
+  modelName: 'survivors'
 });
 
 export default Survivor;

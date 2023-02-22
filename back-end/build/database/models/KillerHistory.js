@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const sequelize_1 = require("sequelize");
 const _1 = __importDefault(require("."));
+const Killer_1 = __importDefault(require("./Killer"));
 class KillerHistory extends sequelize_1.Model {
 }
 KillerHistory.init({
@@ -28,4 +29,6 @@ KillerHistory.init({
     timestamps: false,
     modelName: 'killer_history'
 });
+KillerHistory.belongsTo(Killer_1.default, { foreignKey: 'killer_id', as: 'id_history' });
+Killer_1.default.hasMany(KillerHistory, { foreignKey: 'killer_id', as: 'id_history' });
 exports.default = KillerHistory;

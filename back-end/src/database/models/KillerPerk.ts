@@ -32,7 +32,7 @@ KillerPerks.init({
   sequelize: db,
   underscored: true,
   timestamps: false,
-  modelName: 'Killer_perks'
+  modelName: 'killer_perks'
 });
 
 KillerPerks.belongsTo(Killer, { foreignKey: 'killer_id', as: 'id_perk' });

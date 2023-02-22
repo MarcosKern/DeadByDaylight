@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, _Sequelize) {
-    await queryInterface.bulkInsert('Killer_perks', [
+    await queryInterface.bulkInsert('killer_perks', [
       {
         name: 'Unnerving Presence',
         image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/de/UnnervingPresence.gif/revision/latest?cb=20200926200326',
@@ -53,6 +53,6 @@ module.exports = {
   },
 
   async down (queryInterface, _Sequelize) {
-    await queryInterface.bulkDelete('Killer_perks', null, {})
+    await queryInterface.bulkDelete('killer_perks', null, {})
   }
 };

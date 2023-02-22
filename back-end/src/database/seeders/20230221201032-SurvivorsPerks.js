@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, _Sequelize) {
-    await queryInterface.bulkInsert('Survivor_perks', [
+    await queryInterface.bulkInsert('survivor_perks', [
       {
         name: 'Bond',
         image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/Bond.gif/revision/latest?cb=20200926195146',
@@ -68,6 +68,6 @@ module.exports = {
   },
 
   async down (queryInterface, _Sequelize) {
-    await queryInterface.bulkDelete('Survivor_perks', null, {})
+    await queryInterface.bulkDelete('survivor_perks', null, {})
   }
 };

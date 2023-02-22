@@ -28,10 +28,10 @@ SurvivorHistory.init({
   sequelize: db,
   underscored: true,
   timestamps: false,
-  modelName: 'Survivor_history'
+  modelName: 'survivor_history'
 });
 
-SurvivorHistory.belongsTo(Survivor, { foreignKey: 'survivor_id', as: 'id_perk' });
-Survivor.hasMany(SurvivorHistory, { foreignKey: 'survivor_id', as: 'id_perk' });
+SurvivorHistory.belongsTo(Survivor, { foreignKey: 'id', as: 'survivor' });
+Survivor.hasOne(SurvivorHistory, { foreignKey: 'id', as: 'history' });
 
 export default SurvivorHistory;

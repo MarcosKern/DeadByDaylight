@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const sequelize_1 = require("sequelize");
 const _1 = __importDefault(require("."));
+const Killer_1 = __importDefault(require("./Killer"));
 class KillerPerks extends sequelize_1.Model {
 }
 KillerPerks.init({
@@ -30,6 +31,8 @@ KillerPerks.init({
     sequelize: _1.default,
     underscored: true,
     timestamps: false,
-    modelName: 'Killer_perks'
+    modelName: 'killer_perks'
 });
+KillerPerks.belongsTo(Killer_1.default, { foreignKey: 'killer_id', as: 'id_perk' });
+Killer_1.default.hasMany(KillerPerks, { foreignKey: 'killer_id', as: 'id_perk' });
 exports.default = KillerPerks;

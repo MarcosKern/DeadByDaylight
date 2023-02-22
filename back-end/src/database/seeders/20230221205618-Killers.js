@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, _Sequelize) {
-    queryInterface.bulkInsert('Killers',[
+    queryInterface.bulkInsert('killers',[
       {
         name: 'Evan MacMillan - The Trapper',
         image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/New_Store_Trapper.png/revision/latest?cb=20220325045941',
@@ -26,6 +26,6 @@ module.exports = {
   },
 
   async down (queryInterface, _Sequelize) {
-    await queryInterface.bulkDelete('Killers', null, {})
+    await queryInterface.bulkDelete('killers', null, {})
   }
 };

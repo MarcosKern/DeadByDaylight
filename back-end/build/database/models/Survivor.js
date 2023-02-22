@@ -34,6 +34,6 @@ Survivor.init({
     sequelize: _1.default,
     underscored: true,
     timestamps: false,
-    modelName: 'Survivors'
+    modelName: 'survivors'
 });
 exports.default = Survivor;

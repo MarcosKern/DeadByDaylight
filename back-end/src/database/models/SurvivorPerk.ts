@@ -32,7 +32,7 @@ SurvivorPerks.init({
   sequelize: db,
   underscored: true,
   timestamps: false,
-  modelName: 'Survivor_perks'
+  modelName: 'survivor_perks'
 });
 
 SurvivorPerks.belongsTo(Survivor, { foreignKey: 'survivor_id', as: 'id_perk' });

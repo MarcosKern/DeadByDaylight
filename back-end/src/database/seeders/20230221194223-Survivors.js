@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, _Sequelize) {
-    queryInterface.bulkInsert('Survivors',[
+    queryInterface.bulkInsert('survivors',[
       {
         name: 'Dwight Fairfield',
         image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5c/New_Store_Dwight.png/revision/latest/scale-to-width-down/257?cb=20220325045357',
@@ -29,6 +29,6 @@ module.exports = {
   },
 
   async down (queryInterface, _Sequelize) {
-    await queryInterface.bulkDelete('Survivors', null, {})
+    await queryInterface.bulkDelete('survivors', null, {})
   }
 };

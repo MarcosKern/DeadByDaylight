@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, _Sequelize) {
-    await queryInterface.bulkInsert('Killer_history', [
+    await queryInterface.bulkInsert('killer_history', [
       {
         killer_id: 1,
         history: `Evan MacMillan idolised his father. It wasn't just that he was heir to a great fortune, it was the way he ran the estate. Raised under his firm hand, Evan had taken to running the workforce with an iron hand. Production was always high and the MacMillan Estate prospered under father and son.
@@ -40,6 +40,6 @@ module.exports = {
   },
 
   async down (queryInterface, _Sequelize) {
-    await queryInterface.bulkDelete('Killer_history', null, {})
+    await queryInterface.bulkDelete('killer_history', null, {})
   }
 };
