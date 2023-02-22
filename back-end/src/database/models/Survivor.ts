@@ -1,15 +1,13 @@
-import { Model, INTEGER, STRING,  } from "sequelize";
+import { Model, INTEGER, STRING } from "sequelize";
 import db from '.';
-import IHistory from "../../api/interfaces/IHistory";
-import SurvivorHistory from "./SurvivorHistory";
 
 class Survivor extends Model {
   declare readonly id: number;
   declare name: string;
   declare imageUrl: string;
+  declare description: string;
   declare lore: string;
   declare dlc?: string;
-  declare history?: IHistory;
 }
 
 Survivor.init({
@@ -27,9 +25,13 @@ Survivor.init({
     allowNull: false,
     type: STRING,
   },
+  description: {
+    allowNull: false,
+    type: STRING(2000),
+  },
   lore: {
     allowNull: false,
-    type: STRING(1000),
+    type: STRING,
   },
   dlc: {
     allowNull: true,

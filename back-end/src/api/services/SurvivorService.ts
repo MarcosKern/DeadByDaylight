@@ -1,6 +1,6 @@
 import { ModelStatic } from "sequelize";
 import Survivor from "../../database/models/Survivor";
-import SurvivorHistory from "../../database/models/SurvivorHistory";
+import SurvivorPerks from "../../database/models/SurvivorPerk";
 import ICharacter from "../interfaces/ICharacter";
 import IServiceSurvivor from "../interfaces/IServiceSurvivor";
 
@@ -12,7 +12,11 @@ export default class SurvivorService implements IServiceSurvivor {
   }
 
   async getAll(): Promise<Survivor[]> {
-    const result = await this.model.findAll();
+    const result = await this.model.findAll({
+      include: [
+        {model: SurvivorPerks, as: 'perks', attributes: { exclude: ['survivorId', 'id'] }},
+      ],
+    });
     return result;
   }
 

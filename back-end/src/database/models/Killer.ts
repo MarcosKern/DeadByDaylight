@@ -5,6 +5,7 @@ class Killer extends Model {
   declare readonly id: number;
   declare name: string;
   declare imageUrl: string;
+  declare description: string;
   declare lore: string;
   declare dlc?: string;
 }
@@ -23,6 +24,10 @@ Killer.init({
   imageUrl: {
     allowNull: false,
     type: STRING,
+  },
+  description: {
+    allowNull: false,
+    type: STRING(2000),
   },
   lore: {
     allowNull: false,

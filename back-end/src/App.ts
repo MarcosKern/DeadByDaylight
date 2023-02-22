@@ -1,6 +1,6 @@
 import 'express-async-errors';
 import express from 'express';
-import survivorRoutes from './api/Routes/SurvivorRotes';
+import Rotes from './api/Routes/rotes'
 
 class App {
   public app: express.Express;
@@ -23,7 +23,7 @@ class App {
     this.app.use(accessControl);
   }
   private initRoutes(): void {
-    this.app.use(survivorRoutes)
+    this.app.use(Rotes.killerRoutes, Rotes.perksRoutes, Rotes.survivorRoutes);
   }
 
   public start(PORT: string | number): void {

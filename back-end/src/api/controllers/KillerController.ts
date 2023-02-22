@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
-import IServiceSurvivor from "../interfaces/IServiceSurvivor"
+import IServiceKiller from "../interfaces/IServiceKiller";
 
-export default class SurvivorController {
-  private _service: IServiceSurvivor;
+export default class KillerController {
+  private _service: IServiceKiller;
 
-  constructor(service: IServiceSurvivor) {
+  constructor(service: IServiceKiller) {
     this._service = service;
   }
 

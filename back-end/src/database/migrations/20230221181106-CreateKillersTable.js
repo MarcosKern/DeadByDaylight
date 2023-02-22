@@ -19,9 +19,13 @@ module.exports = {
         type: Sequelize.STRING,
         field: 'image_url',
       },
-      lore: {
+      description: {
         allowNull: false,
         type: Sequelize.STRING(1000),
+      },
+      lore: {
+        allowNull: false,
+        type: Sequelize.STRING(2000),
       },
       dlc: {
         allowNull: true,

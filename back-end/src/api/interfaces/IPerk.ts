@@ -1,4 +1,4 @@
-export default interface Perk {
+export default interface IPerk {
   id?: number;
   name: string;
   imageUrl: string;

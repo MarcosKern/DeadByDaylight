@@ -6,6 +6,10 @@ const survivorRoutes = Router();
 const survivorService = new SurvivorService();
 const survivorController = new SurvivorController(survivorService)
 
-survivorRoutes.get('/survivors', (_req: Request, res: Response) => survivorController.getAllSurvivors(_req, res))
+survivorRoutes.get('/survivors', (_req: Request, res: Response) =>
+  survivorController.getAll(_req, res));
+
+survivorRoutes.get('/survivors/:id', (req: Request, res: Response) =>
+  survivorController.findById(req, res));
 
 export default survivorRoutes;

@@ -35,7 +35,7 @@ SurvivorPerks.init({
   modelName: 'survivor_perks'
 });
 
-SurvivorPerks.belongsTo(Survivor, { foreignKey: 'survivor_id', as: 'id_perk' });
-Survivor.hasMany(SurvivorPerks, { foreignKey: 'survivor_id', as: 'id_perk' });
+SurvivorPerks.belongsTo(Survivor, { foreignKey: 'id', as: 'survivor' });
+Survivor.hasMany(SurvivorPerks, { foreignKey: 'survivorId', as: 'perks' });
 
 export default SurvivorPerks;
