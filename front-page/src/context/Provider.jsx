@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import MyContext from './Context';
@@ -9,11 +9,11 @@ const [ survivors, setSurvivors ] = useState([]);
 const [ killers, setKillers ] = useState([]);
 const [ loading, isLoading ] = useState(true);
 
-const getAllSurvivors = useCallback(async () => DBDapi('GET', 'survivors')
-  .then(({ data: survivors }) => setSurvivors(survivors)))
+const getAllSurvivors = async () => DBDapi('GET', 'survivors')
+  .then(({ data: survivors }) => setSurvivors(survivors))
 
-const getAllKillers = useCallback(async () => DBDapi('GET', 'killers')
-  .then(({ data: killers }) => setKillers(killers)))
+const getAllKillers = async () => DBDapi('GET', 'killers')
+  .then(({ data: killers }) => setKillers(killers))
 
 const apiGet = async () => {
   await getAllSurvivors();

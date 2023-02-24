@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect } from 'react'
 import MyContext from './context/Context';
 import MainPage from './pages/MainPage';
 
