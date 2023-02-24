@@ -12,11 +12,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Survivor_1 = __importDefault(require("../../database/models/Survivor"));
-const SurvivorPerk_1 = __importDefault(require("../../database/models/SurvivorPerk"));
-class SurvivorService {
+const Killer_1 = __importDefault(require("../../database/models/Killer"));
+class KillerService {
     constructor() {
-        this.model = Survivor_1.default;
+        this.model = Killer_1.default;
     }
     create(dto) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -25,11 +24,7 @@ class SurvivorService {
     }
     getAll() {
         return __awaiter(this, void 0, void 0, function* () {
-            const result = yield this.model.findAll({
-                include: [
-                    { model: SurvivorPerk_1.default, as: 'perks', attributes: { exclude: ['survivorId', 'id'] } },
-                ],
-            });
+            const result = yield this.model.findAll();
             return result;
         });
     }
@@ -45,4 +40,4 @@ class SurvivorService {
         });
     }
 }
-exports.default = SurvivorService;
+exports.default = KillerService;

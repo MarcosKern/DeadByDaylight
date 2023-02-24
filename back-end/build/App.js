@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 require("express-async-errors");
 const express_1 = __importDefault(require("express"));
-const SurvivorRotes_1 = __importDefault(require("./api/Routes/SurvivorRotes"));
+const rotes_1 = __importDefault(require("./api/Routes/rotes"));
 class App {
     constructor() {
         this.app = (0, express_1.default)();
@@ -23,7 +23,7 @@ class App {
         this.app.use(accessControl);
     }
     initRoutes() {
-        this.app.use(SurvivorRotes_1.default);
+        this.app.use(rotes_1.default.killerRoutes, rotes_1.default.perksRoutes, rotes_1.default.survivorRoutes);
     }
     start(PORT) {
         this.app.listen(PORT, () => console.log(`Running on port ${PORT}`));

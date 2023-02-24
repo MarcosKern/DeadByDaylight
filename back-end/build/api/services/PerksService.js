@@ -12,37 +12,44 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Survivor_1 = __importDefault(require("../../database/models/Survivor"));
+const KillerPerk_1 = __importDefault(require("../../database/models/KillerPerk"));
 const SurvivorPerk_1 = __importDefault(require("../../database/models/SurvivorPerk"));
-class SurvivorService {
+class PerkService {
     constructor() {
-        this.model = Survivor_1.default;
+        this.survivorPerkModel = SurvivorPerk_1.default;
+        this.killerPerkModel = KillerPerk_1.default;
     }
-    create(dto) {
+    getSurvivorPerks(id) {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.model.create(Object.assign({}, dto));
-        });
-    }
-    getAll() {
-        return __awaiter(this, void 0, void 0, function* () {
-            const result = yield this.model.findAll({
-                include: [
-                    { model: SurvivorPerk_1.default, as: 'perks', attributes: { exclude: ['survivorId', 'id'] } },
-                ],
-            });
-            return result;
-        });
-    }
-    findById(id) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const result = yield this.model.findByPk(id);
-            if (!(result === null || result === void 0 ? void 0 : result.dataValues)) {
+            const result = yield this.survivorPerkModel.findAll({ where: { survivor_id: id } });
+            if (!result) {
                 throw new Error('Invalid ID');
             }
             else {
-                return result.dataValues;
+                return result;
             }
         });
     }
+    getAllSurvivorPerks() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield this.survivorPerkModel.findAll();
+        });
+    }
+    getKillerPerks(id) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const result = yield this.killerPerkModel.findAll({ where: { killer_id: id } });
+            if (!result) {
+                throw new Error('Invalid ID');
+            }
+            else {
+                return result;
+            }
+        });
+    }
+    getAllKillerPerks() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield this.killerPerkModel.findAll();
+        });
+    }
 }
-exports.default = SurvivorService;
+exports.default = PerkService;

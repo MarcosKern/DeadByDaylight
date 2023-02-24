@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-class SurvivorController {
+class KillerController {
     constructor(service) {
         this._service = service;
     }
@@ -32,4 +32,4 @@ class SurvivorController {
         });
     }
 }
-exports.default = SurvivorController;
+exports.default = KillerController;

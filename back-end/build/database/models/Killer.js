@@ -22,6 +22,10 @@ Killer.init({
         allowNull: false,
         type: sequelize_1.STRING,
     },
+    description: {
+        allowNull: false,
+        type: (0, sequelize_1.STRING)(2000),
+    },
     lore: {
         allowNull: false,
         type: (0, sequelize_1.STRING)(1000),

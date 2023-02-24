@@ -11,7 +11,8 @@
     "test:coverage": "nyc mocha -r ts-node/register tests/**/*.test.ts --exit -t 60000",
     "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create",
     "db:migrate": "npx sequelize-cli db:migrate",
-    "db:populate": "npx sequelize db:seed:all"
+    "db:populate": "npx sequelize db:seed:all",
+    "db:start": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize db:seed:all"
   },
   "keywords": [],
   "author": "",
