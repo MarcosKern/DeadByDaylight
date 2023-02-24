@@ -1,7 +1,8 @@
 import axios from 'axios';
+import 'dotenv';
 
 const fetch = axios.create({
-  baseURL: `http://localhost:3306`,
+  baseURL: process.env.MYSQL_URL || `http://localhost:3306`,
   timeout: 10000,
   headers: {
     'Accept': 'application/json',
