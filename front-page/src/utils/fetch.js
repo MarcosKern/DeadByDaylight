@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const PORT = process.env.PORT || '5567';
+const PORT = process.env.PORT || '3306';
 const MYSQLHOST = process.env.MYSQLHOST || 'localhost';
 
 const fetch = axios.create({
