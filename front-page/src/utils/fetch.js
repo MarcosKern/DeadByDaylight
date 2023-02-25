@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-const PORT = process.env.PORT || '3306';
-const MYSQLHOST = process.env.MYSQLHOST || 'localhost';
+
+const PORT = process.env.REACT_APP_PORT || '3306';
+const MYSQLHOST = process.env.REACT_APP_MYSQLHOST || 'localhost';
 
 const fetch = axios.create({
   baseURL: `http://${MYSQLHOST}:${PORT}`,
