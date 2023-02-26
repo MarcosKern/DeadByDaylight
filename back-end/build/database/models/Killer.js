@@ -34,6 +34,10 @@ Killer.init({
         allowNull: true,
         type: sequelize_1.STRING,
     },
+    music: {
+        allowNull: true,
+        type: sequelize_1.STRING,
+    },
 }, {
     sequelize: _1.default,
     underscored: true,
