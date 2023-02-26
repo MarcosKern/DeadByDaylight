@@ -30,6 +30,10 @@ module.exports = {
       dlc: {
         allowNull: true,
         type: Sequelize.STRING,
+      },
+      music: {
+        allowNull: true,
+        type: Sequelize.STRING,
       }
     }, {
       timestamps: false

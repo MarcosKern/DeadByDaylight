@@ -14,7 +14,8 @@ module.exports = {
         
         When Archie MacMillan finally snapped, Evan became his enforcer in what would become known as the worst mass murder in modern history. They never proved that Evan lead over a hundred men into those dark tunnels before detonating the explosives and sealing them to their fate. The tale of the MacMillan Estate is a tale of wealth and power gone very wrong.
         
-        How many victims fell to the hands of father and son is unknown. No record is ever made of what became of Evan MacMillan. His father is another unsolved puzzle, found trapped in the locked basement of his own warehouse - starved and abandoned.`
+        How many victims fell to the hands of father and son is unknown. No record is ever made of what became of Evan MacMillan. His father is another unsolved puzzle, found trapped in the locked basement of his own warehouse - starved and abandoned.`,
+        music: 'yA36PAdwt90'
       },
       {
         name: 'Sally Smithson - The Nurse',
@@ -28,7 +29,8 @@ module.exports = {
         
         Finally she could not take it any more and concepts of purification emerged inside her. She did what she felt was necessary. As the morning staff arrived one day in September - they found over fifty dead patients, lifeless, in their bed along four staff members, also dead.
         
-        Only Sally had survived the night, but her mind was gone, rocking back and forth non-stop. Exactly what happened is only known by her, but it seems that some of them had been choked as they had marks around their necks. They got her into an ambulance, but that ambulance never reached the hospital. It was found crashed in a nearby wood, all the staff dead and Sally nowhere to be found.`
+        Only Sally had survived the night, but her mind was gone, rocking back and forth non-stop. Exactly what happened is only known by her, but it seems that some of them had been choked as they had marks around their necks. They got her into an ambulance, but that ambulance never reached the hospital. It was found crashed in a nearby wood, all the staff dead and Sally nowhere to be found.`,
+        music: 'pcpZeCfeXqg'
       },
       {
         name: 'Michael Myers  The Shape',
@@ -42,6 +44,7 @@ module.exports = {
         
         People hoped that Michael Myers would end up a parenthesis, soon to be forgotten and buried, a failure that soon were to rot away. But then...he escaped.`,
         dlc: 'The HALLOWEEN® Chapter',
+        music: 'epqHXzFCZiA',
       },
     ])
   },

@@ -8,6 +8,7 @@ class Killer extends Model {
   declare description: string;
   declare lore: string;
   declare dlc?: string;
+  declare music?: string;
 }
 
 Killer.init({
@@ -34,6 +35,10 @@ Killer.init({
     type: STRING(1000),
   },
   dlc: {
+    allowNull: true,
+    type: STRING,
+  },
+  music: {
     allowNull: true,
     type: STRING,
   },
