@@ -1,10 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext, useEffect } from 'react'
 import { Route, Routes } from 'react-router';
+import BloodWeb from './components/BloodWeb';
+import Game from './components/Game';
 import Header from './components/Header';
+import Killers from './components/Killers';
+import Survivors from './components/Survivors';
 import MyContext from './context/Context';
-import MainPage from './pages/MainPage';
-import Secondary from './pages/Secondary';
 
 function App() {
   const { apiGet } = useContext(MyContext);
@@ -17,8 +19,10 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path='/' element={ <MainPage /> }/>
-        <Route path='/secondary' element={ <Secondary /> }/>
+        <Route path='/' element={ <Game /> }/>
+        <Route path='/bloodweb' element={ <BloodWeb /> }/>
+        <Route path='/survivors' element={ <Survivors /> }/>
+        <Route path='/killers' element={ <Killers /> }/>
       </Routes>
     </div>
   )

@@ -13,6 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Killer_1 = __importDefault(require("../../database/models/Killer"));
+const KillerPerk_1 = __importDefault(require("../../database/models/KillerPerk"));
 class KillerService {
     constructor() {
         this.model = Killer_1.default;
@@ -24,7 +25,11 @@ class KillerService {
     }
     getAll() {
         return __awaiter(this, void 0, void 0, function* () {
-            const result = yield this.model.findAll();
+            const result = yield this.model.findAll({
+                include: [
+                    { model: KillerPerk_1.default, as: 'perks', attributes: { exclude: ['killerId', 'id'] } }
+                ]
+            });
             return result;
         });
     }

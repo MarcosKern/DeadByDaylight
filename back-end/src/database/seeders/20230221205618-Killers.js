@@ -6,7 +6,7 @@ module.exports = {
     queryInterface.bulkInsert('killers',[
       {
         name: 'Evan MacMillan - The Trapper',
-        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/New_Store_Trapper.png/revision/latest?cb=20220325045941',
+        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/New_Store_Trapper.png',
         description: 'Armed with a bag of Bear Traps, The Trapper specialises in catching unsuspecting Survivors. By placing traps in high-traffic areas and thick patches of grass, he creates a deadly area that forces Survivors to move with caution. When dealing with The Trapper, a simple misstep can prove fatal.',
         lore: `Evan MacMillan idolised his father. It wasn't just that he was heir to a great fortune, it was the way he ran the estate. Raised under his firm hand, Evan had taken to running the workforce with an iron hand. Production was always high and the MacMillan Estate prospered under father and son.
 
@@ -18,7 +18,7 @@ module.exports = {
       },
       {
         name: 'Sally Smithson - The Nurse',
-        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/00/New_Store_Nurse.png/revision/latest?cb=20220325045802',
+        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/00/New_Store_Nurse.png',
         description: 'Using her Blink ability, The Nurse can teleport great distances in moments, predicting and cutting off Survivor routes. A powerful process best honed by experience, careless Blinks are punished with a wave of fatigue. The epitome of high risk, high reward, The Nurse can end chases with surgical precision.',
         lore: `Sally Smithson came to town with dreams of children's feet and laughter in a wooden home built by her husband Andrew. But life came not with smiles but with plans of destruction. Andrew worked as a lumberjack - a job with its perils. One day, Andrew's foreman had to pay Sally a visit, forever changing her life. She was alone.
 
@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         name: 'Michael Myers  The Shape',
-        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/New_Store_Shape.png/revision/latest?cb=20220325045914',
+        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/New_Store_Shape.png',
         description: 'The Shape lurks in the distance, patiently biding his time. His evil builds while stalking Survivors, fueling him with malevolent power. As the trial progresses, The Shape evolves from a quiet menace to an unstoppable juggernaut capable of shredding through even the most resilient teams.',
         lore: `Some humans are simply bad seeds. Seeds infused with a distilled and pure form of evil.
 
