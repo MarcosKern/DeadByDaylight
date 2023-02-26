@@ -1,0 +1,35 @@
+.bloodWeb {
+  position: relative;
+  flex: 1;
+  display: flex;
+  background-color: #0000007b;
+  background-image: url('https://deadbydaylight.com/static/2efcae38b9c7335ca26f914c0b7573c5/4b0d6/yamaokaestate_realm_sanctumofwrath_map_3_f9145a8889.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  color: white;
+  align-items: center;
+
+  img {
+    position: absolute;
+    border-radius: 0 0 100% 0;
+    z-index: 0;
+    filter: opacity(.4);
+  }
+
+  div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4em;
+    z-index: 1;
+    text-align: center;
+    align-self: center;
+    p {
+      width: 60%;
+      font-size: 1.2em;
+    }
+  }
+}

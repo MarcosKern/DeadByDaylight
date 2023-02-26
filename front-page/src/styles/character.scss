@@ -1,0 +1,81 @@
+.character {
+  display: flex;
+  flex: 1;
+  background-color: #0000007b;
+  position: relative;
+  background-image: url('https://deadbydaylight.com/static/a5cdc5db3804f817df112184c81f5ead/93f85/dbd-gallery-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  color: white;
+
+  button {
+    position: absolute;
+    width: 8em;
+    height: 2em;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    
+  }
+
+  section {
+    flex: 1;
+    display: flex;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .nextBtn {
+    bottom: 1em;
+    right: 1em;
+  }
+
+  .previousBtn {
+    bottom: 1em;
+    left: 1em;
+  }
+}
+
+.characterInfos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex: 1;
+
+  .characterNameDlc {
+    height: 3em;
+    text-align: center;
+  }
+
+  .characterImage {
+    height: 35%;
+  }
+  .characterPerks {
+    display: flex;
+    .perk {
+      height: 8em;
+    }
+  }
+}
+
+.characterHistory {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+
+  p {
+    font-size: large;
+  }
+}

@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: .2em;
+  background-color: black;
+  z-index: 1;
+
+  nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 300;
+    transition: .2s ease-in-out;
+
+    .link {
+      color: white;
+      text-decoration: none;
+      transition: .2s ease-in-out;
+    }
+
+    .link:hover {
+      color: red;
+    }
+
+    .active {
+      color: red;
+      transition: .2s ease-in-out;
+    }
+  }
+
+  .logo {
+    height: 3em;
+    filter: grayscale(1);
+  }
+}

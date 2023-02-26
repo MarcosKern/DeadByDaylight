@@ -1,0 +1,26 @@
+.homePage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.3em;
+  align-items: center;
+  background-color: #0000007b;
+  background-image: url('../images/TrapperImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  color: white;
+
+  .gameLogo {
+    height: 20em;
+    filter: invert(1);
+    padding-right: 1em;
+  }
+
+  p {
+    text-align: center;
+    font-size: large;
+  }
+}

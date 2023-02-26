@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import MyContext from '../context/Context'
 import { renderCharacter } from '../utils/renderCharacter';
+import '../styles/character.scss'
 
 export default function Killers() {
   const { killers } = useContext(MyContext);
@@ -26,12 +27,10 @@ export default function Killers() {
   }
 
   return (
-    <div>
-      <div>
-      <button onClick={ () => Next() }>Next</button>
+    <div className='character'>
+      <button className='nextBtn' onClick={ () => Next() }>Next</button>
         { renderCharacter(killers[current]) }
-      <button onClick={ () => Previous() }>Previous</button>
-    </div>
+      <button className='previousBtn' onClick={ () => Previous() }>Previous</button>
     </div>
   )
 }
