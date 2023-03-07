@@ -18,7 +18,7 @@ export function renderCharacter(character) {
     <div className="characterHistory">
       <h2>Lore</h2>
       <p>{ character.description }</p>
-      <p>{ character.lore }</p>
+      <p className='lore'>{ character.lore }</p>
     </div>
   </section>
 }
