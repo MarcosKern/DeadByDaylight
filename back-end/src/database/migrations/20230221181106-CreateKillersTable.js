@@ -21,11 +21,11 @@ module.exports = {
       },
       description: {
         allowNull: false,
-        type: Sequelize.STRING(1000),
+        type: Sequelize.STRING(6000),
       },
       lore: {
         allowNull: false,
-        type: Sequelize.STRING(2000),
+        type: Sequelize.TEXT,
       },
       dlc: {
         allowNull: true,
