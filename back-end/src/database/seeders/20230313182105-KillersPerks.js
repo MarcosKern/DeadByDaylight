@@ -476,9 +476,3 @@ module.exports = {
     await queryInterface.bulkDelete('killer_perks', null, {})
   }
 };
-
-// {
-//   name: '',
-//   image_url: '',
-//   killer_id: ,
-// },
