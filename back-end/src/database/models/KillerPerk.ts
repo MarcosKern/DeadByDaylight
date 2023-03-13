@@ -35,7 +35,6 @@ KillerPerks.init({
   modelName: 'killer_perks'
 });
 
-KillerPerks.belongsTo(Killer, { foreignKey: 'id', as: 'killer' });
 Killer.hasMany(KillerPerks, { foreignKey: 'killerId', as: 'perks' });
 
 export default KillerPerks;
