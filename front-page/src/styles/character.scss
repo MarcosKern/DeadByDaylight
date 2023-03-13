@@ -10,17 +10,6 @@
   background-blend-mode: color;
   color: white;
 
-  button {
-    position: absolute;
-    width: 8em;
-    height: 2em;
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
-    font-size: large;
-    
-  }
-
   section {
     flex: 1;
     display: flex;
@@ -33,11 +22,73 @@
   .nextBtn {
     bottom: 1em;
     right: 1em;
+    position: absolute;
+    width: 8em;
+    height: 2em;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: large;
   }
 
   .previousBtn {
     bottom: 1em;
     left: 1em;
+    position: absolute;
+    width: 8em;
+    height: 2em;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+  }
+
+  .choseBtn {
+    right: 1em;
+    top: 1em;
+    position: absolute;
+    width: 8em;
+    height: 2em;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+  }
+
+  .characterList {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    width: 30em;
+    height: 30em;
+    background-color: black;
+    right: 1em;
+    top: 1em;
+    gap: 1em;
+
+    button {
+      width: 30%;
+      contain: content;
+      background-color: transparent;
+      border: none;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .characterList::-webkit-scrollbar {
+    background-color: #0000007b;
+    width: .3em;
+  }
+
+  .characterList::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
   }
 }
 

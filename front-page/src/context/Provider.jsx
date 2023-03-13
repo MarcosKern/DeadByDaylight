@@ -8,6 +8,8 @@ function Provider({ children }) {
 const [ survivors, setSurvivors ] = useState([]);
 const [ killers, setKillers ] = useState([]);
 const [ loading, isLoading ] = useState(true);
+const [ currentKiller, setCurrentKiller ] = useState(0);
+const [ currentSurvivor, setCurrentSurvivor ] = useState(0);
 
 const getAllSurvivors = async () => DBDapi('GET', 'survivors')
   .then(({ data: survivors }) => setSurvivors(survivors))
@@ -26,6 +28,10 @@ const apiGet = async () => {
     survivors,
     apiGet,
     loading,
+    currentKiller,
+    setCurrentKiller,
+    currentSurvivor,
+    setCurrentSurvivor
   }
 
   return (
