@@ -4,7 +4,21 @@
 module.exports = {
   async up (queryInterface, _Sequelize) {
     await queryInterface.bulkInsert('killer_perks', [
-
+      {
+        name: 'Unnerving Presence',
+        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/de/UnnervingPresence.gif',
+        killer_id: 1,
+      },
+      {
+        name: 'Brutal Strength',
+        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e8/BrutalStrength.gif',
+        killer_id: 1,
+      },
+      {
+        name: 'Agitation',
+        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/Agitation.gif',
+        killer_id: 1,
+      },
       {
         name: 'Predator',
         image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/Predator.gif',
