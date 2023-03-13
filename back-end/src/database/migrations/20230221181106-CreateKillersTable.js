@@ -34,6 +34,10 @@ module.exports = {
       music: {
         allowNull: true,
         type: Sequelize.STRING,
+      },
+      icon: {
+        allowNull: false,
+        type: Sequelize.STRING,
       }
     }, {
       timestamps: false

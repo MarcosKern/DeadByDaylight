@@ -15,7 +15,8 @@ module.exports = {
         When Archie MacMillan finally snapped, Evan became his enforcer in what would become known as the worst mass murder in modern history. They never proved that Evan lead over a hundred men into those dark tunnels before detonating the explosives and sealing them to their fate. The tale of the MacMillan Estate is a tale of wealth and power gone very wrong.
         
         How many victims fell to the hands of father and son is unknown. No record is ever made of what became of Evan MacMillan. His father is another unsolved puzzle, found trapped in the locked basement of his own warehouse - starved and abandoned.`,
-        music: 'yA36PAdwt90'
+        music: 'yA36PAdwt90',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/38/K01_charPreview_portrait.png',
       },
       {
         name: 'Philip Ojomo - The Wraith',
@@ -29,6 +30,7 @@ module.exports = {
         
         Ojomo snapped and went ballistic. He threw his boss in the crusher and let it slowly compress, as the head stuck out, Ojomo grabbed it and pulled head and spine out of the body. Then he left and was never seen again.`,
         music: 'yA36PAdwt90',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1b/K02_charPreview_portrait.png',
       },
       {
         name: 'Max Thompson Sr. - The Hillbilly',
@@ -40,6 +42,7 @@ module.exports = {
         
         Coldwind Farm was quickly settled and the land split up and sold off. There was never a buyer for the farmhouse. Perhaps it was the sound of the chainsaw you could hear throughout those hot summer nights.`,
         music: 'LSNNzk8r3dU',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f4/K03_charPreview_portrait.png',
       },
       {
         name: 'Sally Smithson - The Nurse',
@@ -54,7 +57,8 @@ module.exports = {
         Finally she could not take it any more and concepts of purification emerged inside her. She did what she felt was necessary. As the morning staff arrived one day in September - they found over fifty dead patients, lifeless, in their bed along four staff members, also dead.
         
         Only Sally had survived the night, but her mind was gone, rocking back and forth non-stop. Exactly what happened is only known by her, but it seems that some of them had been choked as they had marks around their necks. They got her into an ambulance, but that ambulance never reached the hospital. It was found crashed in a nearby wood, all the staff dead and Sally nowhere to be found.`,
-        music: 'pcpZeCfeXqg'
+        music: 'pcpZeCfeXqg',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/05/K04_charPreview_portrait.png'
       },
       {
         name: 'Michael Myers - The Shape',
@@ -69,6 +73,7 @@ module.exports = {
         People hoped that Michael Myers would end up a parenthesis, soon to be forgotten and buried, a failure that soon were to rot away. But then...he escaped.`,
         dlc: 'The HALLOWEEN® Chapter',
         music: 'epqHXzFCZiA',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3f/K05_charPreview_portrait.png'
       },
       {
         name: 'Lisa Sherwood - The Hag',
@@ -80,6 +85,7 @@ module.exports = {
         
         The village's search party eventually brought them to an old shack in a swamp. Inside, its previous inhabitants had been viciously dismembered and devoured by an unidentifiable animal. In the cellar, amid rotting corpses and disconnected flesh, the elders’ charms were scrawled in blood on the floor. Lisa’s body was not among the bodies and was never found. The village was never the same again.`,
         music: '92g_6ay_oDE',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fb/K06_charPreview_portrait.png'
       },
       {
         name: 'Herman Carter - The Doctor',
@@ -97,6 +103,7 @@ module.exports = {
         
         The government didn't want to know. The black site was condemned and all knowledge of the Léry's Memorial Institute redacted forever.`,
         music: 'w64SwR_YcPw',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/K07_charPreview_portrait.png'
       },
       {
         name: 'Anna - The Huntress',
@@ -118,6 +125,7 @@ module.exports = {
         
         War eventually came to the forest. German soldiers began to pass through, on the march to attack the collapsing Russian Empire. During these dark times, there were no more travellers. The villagers had abandoned their homes, and no more little ones to be found; only soldiers. Many of them were found with violent axe wounds. Whole groups disappeared mysteriously. Once the war was over, the rumours of The Huntress disappeared with it, engulfed by the Red Forest.`,
         music: 'x8KsVJdUxKc',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/K08_charPreview_portrait.png'
       },
       {
         name: 'Bubba Sawyer - The Cannibal',
@@ -146,6 +154,7 @@ module.exports = {
         Let the outsiders come.`,
         music: 'yA36PAdwt90',
         dlc: 'CHAPTER 5.5: LEATHERFACE™',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/K09_charPreview_portrait.png'
       },
       {
         name: 'Freddy Krueger - The Nightmare',
@@ -177,7 +186,8 @@ module.exports = {
         
         A moment of falling and spinning and then Freddy was back in the school. But not his school. It looked the same, but it felt different. His powers were tempered in some ways and focused in others. The boy had gone for now, but another prey walked the hallways. Some would be inconsequential; others would become his new favourites. All would fall before his claws.`,
         music: 'eHCqMa7Pci4',
-        dlc: 'CHAPTER 6: A Nightmare on Elm Street™'
+        dlc: 'CHAPTER 6: A Nightmare on Elm Street™',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/K10_charPreview_portrait.png'
       },
       {
         name: 'Amanda Young - The Pig',
@@ -202,6 +212,7 @@ module.exports = {
         Ultimately, she saw now that she had been right in the choices she had made. The time for games was over. There was no chance of redemption for any of them. They were meat, and meat was destined to die.`,
         music: 'vhSHXGM7kgE',
         dlc: 'CHAPTER 7: The SAW™ Chapter',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/K11_charPreview_portrait.png'
       },
       {
         name: 'Jeffrey Hawk - The Clown',
@@ -239,6 +250,7 @@ module.exports = {
         
         Somewhere along the way, he left the ordinary roads of the United States behind him, travelling through a veil of mist and entering a new realm. It was a place of transience and impermanence, perfectly suiting the life he had chosen to lead. Feeling more at home than he had in his entire life, he set up camp and waited for his first visitor.`,
         music: 'B308D3Eakf4',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/K12_charPreview_portrait.png'
       },
       {
         name: 'Rin Yamaoka - The Spirit',
@@ -274,6 +286,7 @@ module.exports = {
         
         An oath was made and Rin closed her eyes.`,
         music: 'H7Ph_SRoUsU',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/K13_charPreview_portrait.png'
       },
       {
         name: 'Frank, Julie, Susie, Joey - The Legion',
@@ -289,6 +302,7 @@ module.exports = {
         
         All four were digging in the muddy snow to dispose of the body when Frank spotted something moving through the woods. He grabbed his knife and broke from the group to check it out. The Fog thickened around Frank, becoming so dense that he soon could no longer see ahead. He retraced his steps and stumbled onto an ominous trail. He followed the eerie path, as if called by the darkness. Julie, Susie, and Joey finished digging, but Frank was nowhere to be seen. Julie spotted his muddy footsteps in the snow and the three of them followed the trail, which took them deeper into the woods. When Julie, Susie, and Joey did not return home that night, their parents thought they'd run away with Frank. Each family came up with a different theory. The mood in the town changed, however, when a body was found by an abandoned lodge up Mount Ormond.`,
         music: 'tOok6zLdLX0',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/K14_charPreview_portrait.png'
       },
       {
         name: 'Adiris - The Plague',
@@ -318,6 +332,7 @@ module.exports = {
         
         Neither the body of Adiris nor those of her followers were ever found. Many told tales of her return, but no one truly knew what fate had befallen the High Priestess of Babylon.`,
         music: '_z8bzVlvXzY',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/K15_charPreview_portrait.png'
       },
       {
         name: 'Danny Johnson - The Ghost Face',
@@ -332,6 +347,7 @@ module.exports = {
         Olsen never justified his erratic career path, which zigzagged between several small towns from Utah to Pennsylvania. There was no verification of his previous jobs. He had a decent portfolio plus a good attitude, and they needed a contributor right away.`,
         music: '5AEA7TNHSyA',
         dlc: 'CHAPTER 12: Ghost Face®',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/K16_charPreview_portrait.png'
       },
       {
         name: 'Demogorgon - The Demogorgon',
@@ -340,6 +356,7 @@ module.exports = {
         lore: `A blooming mouth full of needle-like teeth for a face, large, curved, razor-sharp claws, and powerful legs to pounce on victims, make The Demogorgon a frightening monster to face in any dimension. It is a nightmare of unrestrained, feral rage as it hunts down its prey and rips it to pieces, devouring every last morsel of flesh and gore, leaving nothing for scavengers. The creature is untouched by any sense of compassion or restraint. Looming over its victim, it shows no doubt or mercy, just the pure instinct of its insatiable blood lust as it delivers the deathblow. A perfect hunter, The Demogorgon is a macabre testament to the horrors lurking in the Upside Down and why it was choice pickings for The Entity.`,
         music: 'Wfyt4wOfU20',
         dlc: 'CHAPTER 13: Stranger Things',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cd/K17_charPreview_portrait.png'
       },
       {
         name: 'Kazan Yamaoka - The Oni',
@@ -357,6 +374,7 @@ module.exports = {
 
         Satisfied, Kazan exited the villa to find himself surrounded by dozens of farmers wielding rusted scythes, sharp pitchforks, and heavy clubs. He survived the first few assaults, but there were too many attackers coming from every direction. Within moments Kazan was on the ground staring at a cold, indifferent, darkening sky as farmers took turns stabbing and torturing the 'Oni' who had butchered their beloved lord. The frenzied mob dragged Kazan into a small stone mill to continue the torture and finally left him to die a slow, agonising death. When they returned, the mill was filled with a strange black fog and Kazan’s body and the Kanabo were nowhere to be found. It was the beginning of a dark legend about a rageful Oni haunting the town.`,
         music: '9IUFfSRyWLU',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/K18_charPreview_portrait.png'
       },
       {
         name: 'Caleb Quinn - The Deathslinger',
@@ -386,6 +404,7 @@ module.exports = {
         
         Soaked in blood and sweat, Caleb hobbled to his old cell, hardly paying notice to Bayshore's screams. He sat on the bed's edge as drops of blood ran from his fingertips. A thick, unnatural fog streamed through the barred window. He pulled out his old wrench, cracked and rusted, and ran a thumb along the metal, regarding it with faded eyes. He couldn't remember when it came into his possession. He didn't care to remember. At his feet, he saw a dusty path, and, at its end, silhouettes of all who had done him wrong: the boys who bullied him, the executives who took advantage of him, and, again... Henry Bayshore. Emerging from a fog were the tools to dispose of them — unforgiving steel hooks, brilliant and beautiful in their simplicity. Pain tore through his leg as he stood, but he endured, pushing onwards, walking the dusty path, leaving a trail of blood flowing behind him.`,
         music: '9B7nZ6giTAI',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a2/K19_charPreview_portrait.png'
       },
       {
         name: 'Pyramid Head - The Executioner',
@@ -400,6 +419,7 @@ module.exports = {
         There was an unspoken agreement in that moment. The billowing cloud was an invitation to duty and sadism, and Pyramid Head, taking a step into The Fog, accepted his obligation once more.`,
         music: 'x-gvR6dDTz4',
         dlc: 'CHAPTER 16: Silent Hill',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/K20_charPreview_portrait.png'
       },
       {
         name: 'Talbot Grimes - The Blight',
@@ -427,6 +447,7 @@ module.exports = {
         
         The denizens of the opium den awoke to silence, the dry scent of smoke still lingering in the air. Shambling out of their drug-hazed fog, they found the stone floor wet with blood, tiny rivulets coursing through the cracks. As eyes adjusted to the darkened room, the jagged lettering scrawled along its length began to appear. Written over and over without end, there was but one single line: Death is only the beginning.`,
         music: 'nHxzKl3h20I',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2a/K21_charPreview_portrait.png'
       },
       {
         name: 'Charlotte & Victor Deshayes - The Twins',
@@ -458,6 +479,7 @@ module.exports = {
         
         Pulling herself from the edge of death, she gave chase. Calling his name, she ran through the forest until her legs could hardly carry her, until finally, within her view, was Victor, sitting at the edge of a thick fog. His face, twisted and feral, screamed as a dark hooded figure emerged from the fog, grabbed his arm, and seized him. The serenity that had crept into Charlotte was extinguished, replaced with the seething hatred and rage she had depended on for so long. With a tight grip on her sickle, she charged into the fog, prepared to eviscerate any who set foot near her brother.`,
         music: 'Mg4DcnrZ7-s',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/K22_charPreview_portrait.png'
       },
       {
         name: 'Ji-Woon Hak - The Trickster',
@@ -501,6 +523,7 @@ module.exports = {
         
         From where, he didn’t know, but it billowed around them, damp, cool... comfortable. He saw the grand stage: hospitals and temples, forests and slaughterhouses — an eternal plane adorned with rusted hooks, sustained by the million eyes that would watch him, run from him, experience him. All he had to do was accept, become an implement of The Fog and, most importantly, make them scream.`,
         music: 'roy75NG3xSM',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/29/K23_charPreview_portrait.png'
       },
       {
         name: 'Nemesis T-Type - The Nemesis',
@@ -514,7 +537,8 @@ module.exports = {
         The phenomenon meant nothing to him—the frigid cold and decreased oxygen never posing a threat.
         All that mattered was soldiering on into The Fog, continuing the mission: find S.T.A.R.S., exterminate S.T.A.R.S., and kill anyone who gets in the way.`,
         music: 'fo4hEIa_CzI',
-        dlc: 'CHAPTER 20: Resident Evil™'
+        dlc: 'CHAPTER 20: Resident Evil™',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/K24_charPreview_portrait.png'
       },
       {
         name: 'Elliot Spencer - The Cenobite',
@@ -523,6 +547,7 @@ module.exports = {
         lore: `A demon to some, an angel to others. Pinhead is an explorer in the further regions of experience, indulging in the limitless thrill of pleasure and pain. When the puzzle box known as the Lament Configuration — a key to another dimension — was found in The Entity's Realm, it was only a matter of time before it fell into curious hands. Once opened, he arrived. What came next was sweet suffering that spilled over the Realm.`,
         music: 'vd70jLzBaNw',
         dlc: 'CHAPTER 21: Hellraiser™',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/K25_charPreview_portrait.png'
       },
       {
         name: 'Carmina Mora - The Artist',
@@ -592,6 +617,7 @@ module.exports = {
 
         A deep, Black Fog engulfed her.`,
         music: 'CrqYVg2YkbI',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/K26_charPreview_portrait.png'
       },
       {
         name: 'Sadako Yamamura - The Onryō',
@@ -620,6 +646,7 @@ module.exports = {
         Sadako walked into a coming wave and slowly disappeared into the opaque fog.`,
         music: 'NYHYXMhuW_k',
         dlc: 'CHAPTER 23: Sadako Rising',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/K27_charPreview_portrait.png'
       },
       {
         name: 'Dredge - The Dredge',
@@ -669,6 +696,7 @@ module.exports = {
         
         It turned slowly to look at Otto for a long silent moment, then the Druanee trudged away through the thick black sludge, disappearing into the shadows from which it had come.`,
         music: 'FMunYZdoZeA',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cd/K28_charPreview_portrait.png'
       },
       {
         name: 'Albert Wesker - The Mastermind',
@@ -679,6 +707,7 @@ module.exports = {
         Wesker began to put his plan to action in Africa but was confronted by members of the Bioterrorism Security Assessment Alliance at a hangar stocked with missiles carrying Uroboros. Determined to be at the vanguard of evolution, he once again made himself a test subject. Exposing himself to Uroboros, he began to evolve in ways he could have never imagined. But as he felt his cells change, a strange black fog seeped into the hangar and filled his vision. When the fog finally dissipated, he found himself in another world surrounded by lesser beings that deserved to be put out of their misery.`,
         music: 'P2WG5qJcaqM',
         dlc: 'CHAPTER 25: Resident Evil™: PROJECT W',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8e/K29_charPreview_portrait.png'
       },
       {
         name: 'Tarhos Kovács - The Knight',
@@ -724,10 +753,11 @@ module.exports = {
         
         The Sublime.`,
         music: 'RPSWWy6kZrw',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/K30_charPreview_portrait.png'
       },
       {
         name: 'Adriana Imai - The Skull Merchant',
-        image_url: '',
+        image_url: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/Store_Skull_Merchant.png',
         description: 'The Skull Merchant is a tactical Killer, able to place Drones that detect and debilitate her targets.',
         lore: `The self-made millionaire Adriana Imai came from a humble home in Fortaleza, Brazil. Her father, Seita, moved to Brazil as a young man, hoping to see a side of the world completely different than his hometown in Hokkaido. A talented illustrator, he spent his spare time designing colourful characters and worlds.
 
@@ -773,6 +803,7 @@ module.exports = {
         
         Without a second to lose, she plunged her blade through his stomach, exposing meat, bone, and a dying heart. The vitiated body staggered left and right, sending a shower of red over the green foliage. As her victim collapsed with a thud she turned to the young witnesses. Wrong place, wrong time. They broke into a sprint. She gave chase, her blades thirsting for more blood. The lush green of the trees melted into a thick black fog. Real life warped into something like Sonhadores Sombrios. A sick grin crept across her face as she rushed forward to begin a new chapter in her life.`,
         music: 'TOzKDFqehH8',
+        icon: 'https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/K31_charPreview_portrait.png'
       },
     ])
   },

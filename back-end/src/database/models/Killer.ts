@@ -9,6 +9,7 @@ class Killer extends Model {
   declare lore: string;
   declare dlc?: string;
   declare music?: string;
+  declare icon: string;
 }
 
 Killer.init({
@@ -42,6 +43,10 @@ Killer.init({
     allowNull: true,
     type: STRING,
   },
+  icon: {
+    allowNull: false,
+    type: STRING,
+  }
 }, {
   sequelize: db,
   underscored: true,

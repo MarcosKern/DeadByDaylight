@@ -38,6 +38,10 @@ Killer.init({
         allowNull: true,
         type: sequelize_1.STRING,
     },
+    icon: {
+        allowNull: false,
+        type: sequelize_1.STRING,
+    }
 }, {
     sequelize: _1.default,
     underscored: true,
