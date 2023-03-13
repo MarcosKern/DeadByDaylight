@@ -29,7 +29,8 @@ module.exports = {
         field: 'killer_id',
       }
     }, {
-      timestamps: false
+      timestamps: false,
+      underscored: true,
     });
   },
 
